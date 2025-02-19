@@ -9,12 +9,12 @@ const Footer = () => {
         <footer>
         <div className="contenedor-footer">
             <div className="enlace">
-                <p>Secciones</p>
                 <ul>
                     <li>
-                        <Link to="/">Inicio</Link><br></br>
-                        <Link to="/bodegas">Lista Bodegas</Link><br></br>
-                        <Link to="/eventos">Eventos</Link><br></br>
+                        <Link to="/preguntas">Preguntas Frecuentes</Link><br></br>
+                        <Link to="/politicas">Política de Privacidad</Link><br></br>
+                        <Link to="/terminos">Terminos y Condiciones</Link><br></br>
+                        <Link to="/nuevasBodegas">Suma tu Bodega</Link><br />
                     </li>
                 </ul>
             </div>
@@ -28,7 +28,7 @@ const Footer = () => {
 
         </div>
         <div className="derechos">
-            <p>© 2024 CheckWineries. Todos los derechos reservados.</p>
+            <p>© 2025 Check Wineries. Todos los derechos reservados.</p>
         </div>
         </footer>
     )
