@@ -3,16 +3,87 @@
   padding: 0;
   box-sizing: border-box;
 }
+.login-conteiner {
+  background-color: #8c5170; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.login-conteiner img{
+  width: 200px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.login {
+  background-color: #ffffff; 
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 20px;  /* ← Clave */
+}
+
+.login button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #000000; /* Color del botón */
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login button:hover {
+  background-color: #8c5170;
+}
+
+.login h2 {
+  font-family: "Roboto";
+  font-weight:bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.login p{
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: italic;
+}
+.login p a {
+  color: #6640FF; 
+  text-decoration: none; 
+  
+}
+
+
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Distribuye el menú a la izquierda y el isotipo a la derecha */
+  justify-content: space-between; 
   padding: 15px 40px;
   background-color: #8c5170;
   width: 100%;
   height: 120px;
-  box-sizing: border-box; /* Incluye el padding dentro del tamaño total */
-  overflow: hidden; /* Evita que los elementos se desborden */
+  box-sizing: border-box; 
+  overflow: hidden; 
 }
 
 .menu {
@@ -85,9 +156,9 @@ nav.menu-desplegable.show {
 }
 
 .logotipo {
-  position: absolute; /* Posiciona el logotipo de manera absoluta */
-  left: 50%; /* Mueve el logotipo al centro horizontalmente */
-  transform: translateX(-50%); /* Centra el logotipo completamente */
+  position: absolute; 
+  left: 50%; 
+  transform: translateX(-50%); 
   display: flex;
   align-items: center;
 }
@@ -160,7 +231,7 @@ nav.menu-desplegable.show {
 }
 
 .texto-seccion h1{
-  font-family: "Play Displayflair";
+  font-family: "Times New Roman";
   font-weight: 500;
   font-size: 60px;
   text-align: center;
@@ -185,13 +256,12 @@ footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  margin: 40px;
 }
 
 .enlace{
   flex: 1;
   color: #ffff;
-  
 
 }
 
@@ -199,7 +269,6 @@ footer{
   list-style-type: none;
   padding: 20px  80px;
   margin-top: 30px;
-
   
 }
 .enlace ul li{ 
@@ -209,7 +278,7 @@ footer{
 .enlace ul li a {
   color: #ffff;
   font-family: "Roboto Serif";
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 250;
   text-decoration: none;
   line-height: 1.6;
@@ -260,10 +329,10 @@ footer{
 }
 
 .pregunta h2:hover {
-  color: #8c5170; /* Color al hacer clic en la pregunta */
+  color: #8c5170; 
 }
 .pregunta h2.pregunta-activa {
-  color: #8c5170; /* Color fijo cuando está seleccionada */
+  color: #8c5170; 
 }
 
 .pregunta p {
@@ -329,6 +398,7 @@ footer{
   padding-left: 50px;
   padding-right: 50px;
   border-top: 4px solid #CC8CAC;
+  font-family: "Roboto Serif";
 }
 
 .terminos h2 {
@@ -382,6 +452,7 @@ footer{
   font-family: "Roboto Serif";
   font-weight: normal;
   font-size: 20px;
+  color: #fff;
   
 }
 
@@ -404,14 +475,122 @@ footer{
   transform: scale(1.1);
 }
 
+
+.consultas-conteiner {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+}
+.consultas-conteiner h1 {
+  font-family: "Play Displayflair";
+  text-align: center;
+  font-size: 40px;
+  font-weight:normal;
+  color: #555555;
+  margin: 20px;
+}
+
+.consultas-conteiner h2 {
+  font-family: "Play Displayflair";
+  text-align: center;
+  font-size: 32px;
+  font-weight:bold;
+  color: #555555;
+  margin: 10px;
+}
+
+.formulario-consulta {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.campos-consulta label {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+  text-align: left;
+  font-family: "Roboto";
+  margin: 10px;
+
+}
+
+.campos-consulta input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.campos-consulta input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+  border-color: #B5C99A;
+  outline: none;
+}
+
+/* Estilo para el botón de envío */
+.boton-consulta{
+  background-color: #B5C99A ;
+  color: #fff;
+  font-family: "Roboto" ;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton-consulta:hover {
+  background-color: #8c5170;
+}
+
+/* Mensaje de error */
+.error-message {
+  color: red;
+  font-size: 20px;
+  font-family: "Roboto";
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* Mensaje de éxito */
+.success-message {
+  color: green;
+  font-size: 20px;
+  font-family: "Roboto";
+  margin-top: 10px;
+  text-align: left;
+}
+
+/* Estilo para los mensajes de error o éxito */
+p {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #555;
+}
+
+
 .derechos p { 
   color: #ffff;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Lato";
   font-weight: lighter;
   text-align: center;
   opacity: 0.4;
   margin-bottom: 0 ;
+  margin-top: -20px;
 }
 
 .body-clasificaciones{
@@ -419,7 +598,7 @@ footer{
 }
 
 .body-clasificaciones h1{ 
-  font-family: "Play Displayflair";
+  font-family: "Playfair Display";
   text-align: center;
   font-size: 40px;
   font-weight:normal;
@@ -477,7 +656,7 @@ footer{
 }
 
 .body-comidas h1{ 
-    font-family: "Play Displayflair";
+    font-family: "Playflair Display";
     text-align: center;
     font-size: 40px;
     font-weight:normal;
@@ -571,11 +750,11 @@ footer{
   margin: 20px;
 }
 .detalle-bodega h2{
-font-family: "Roboto Serif";
+font-family: "Roboto";
 font-size: 25px;
 }
 .nombre-bodega h1  {
-  font-family: "Play Displayflair";
+  font-family: "Playflair Display";
   text-align: center;
   font-size: 40px;
   font-weight:normal;
@@ -589,7 +768,7 @@ font-size: 25px;
 .carrusel-bodega .image-gallery-slide img {
   width: 93%;
   height: 400px;
-  object-fit: cover;
+
 }
 .image-gallery-icon {
   width: 60px !important; 
@@ -612,7 +791,7 @@ font-size: 25px;
   justify-content: center;
   align-items: center; 
   position: relative;
-  margin: 5px 30px;
+  margin: 5px 80px;
 }
 .historia h2{
   flex-grow: 1; 
@@ -647,6 +826,7 @@ font-size: 25px;
 
 .historiaExplicada{
   padding: 1px 70px;
+  margin: 0 50px;
 }
 .historiaExplicada p{
   font-family: "Roboto";
@@ -659,9 +839,10 @@ font-size: 25px;
   display: grid;
   grid-template-columns: repeat(2 ,1fr);
   gap: 10px;
-  padding-left: 90px;
+  padding-left: 80px;
   padding-right: 80px;
   padding-top: 25px;
+  margin: 0 80px;
 }
 .detalles h2 {
   font-family: "Roboto";
@@ -679,6 +860,7 @@ font-size: 25px;
 .iconos-conteiner-transporte {
   display: flex;
   padding: 20px;
+
 }
 .icono-Transporte{
   display: flex;
@@ -695,7 +877,9 @@ font-size: 25px;
 }
 .icono-Transporte img{
   width: 50px;
-  height: auto;  
+  height: auto;
+  position: relative; /* Necesario para posicionar la cruz */
+  display: inline-block; /* Para que solo ocupe el tamaño del ícono */ 
 }
 .verdadero  {
   background-color: #B5C99A;
@@ -709,12 +893,41 @@ font-size: 25px;
   cursor: not-allowed; 
   pointer-events: none;
 }
+.icono-Transporte {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 70px; 
+  height: 70px; 
+  border-radius: 50%;
+  padding: 20px;
+  margin: 0 4px;
+  border: solid 2px black;
+  text-align: center;
+  position: relative; /* Necesario para la cruz */
+}
+
+.icono-Transporte img {
+  width: 50px;
+  height: auto;
+}
+
+.noVerdadero {
+  background-color: #A9A9A9; 
+  border: 2px solid #000000; 
+  cursor: not-allowed; 
+  pointer-events: none;
+  position: relative; /* Esto permite que la cruz se posicione dentro */
+}
+
 
 .actividades ul{
   font-family: "Roboto";
   font-weight: normal;
   font-size: 22px;
-  padding:  10px 30px;
+  padding: 10px;
+  color: #555555;
+  padding-left: 30px;
 }
 
 .mapa{
@@ -728,14 +941,21 @@ font-size: 25px;
   padding: 10px;
   text-align: center;
 }
-
+.idiomas .iconos-idiomas {
+  margin-left: 50px; 
+  display: flex;
+  margin: 10px;
+}
 .idiomas img{
-  width: 60px;
+  width: 70px;
   height: auto;
+  margin-left: 10px;
+
 }
 .wsp-contacto {
   width: 80px;
   height: 80px;
+  margin: 30px 120px;
   margin-left: auto;
 
 }
@@ -748,10 +968,11 @@ font-size: 25px;
 }
 
 .busqueda { 
-  margin: 5px 0px;
+  margin: 0 -20px;
   padding: 5px;
   width: 100%;
-  max-width: 200px;
+  display: flex;
+  justify-content: flex-end;
 
 }
 .busqueda input {
@@ -764,10 +985,15 @@ font-size: 25px;
 .busqueda input:hover{
   border: 3px solid#B5C99A;
 }
+.busqueda input:focus{
+  border: 3px solid#B5C99A;
+  outline: none;
+
+}
 
 
 .lista-eventos h1 {
-  font-family: "Play Displayflair";
+  font-family: "Playflair Display";
   text-align: center;
   font-size: 40px;
   font-weight:normal;
@@ -783,6 +1009,7 @@ font-size: 25px;
   width: 100%; 
   margin: 0 auto; 
   align-items: center; 
+  
 }
 
 
@@ -797,43 +1024,47 @@ font-size: 25px;
   padding: 15px;
   transition: transform 0.3s ease;
   font-family: "Roboto";
-  font-size: 20px;
-
+  font-size: 100px;
+ 
 }
 
 .card-evento:hover {
   transform: translateY(-15px);
 }
 
-/* Imagen */
 .evento-imagen {
   width: 100%;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
-/* Título del evento */
 .evento-nombre {
-  font-size: 25px;
-  font-family: 'Roboto', sans-serif;
-  font-style: italic;
-  margin-bottom: 10px;
+  font-size: 30px;
+  font-family: "Plaifair Display";
+  margin-top: -5px;
+  margin-bottom: 2px;
 }
 
-/* Contenedor de las columnas usando Grid */
 .evento-info {
   display: grid;
   grid-template-columns: 1fr 1fr; 
-  gap: 10px;
-  margin-bottom: 10px;
+  gap: -5px; 
   text-align: left;
-  padding-left: 60px;
-
+  padding-left: 50px;
+  font-family: "Roboto";
 }
 
-/* Botón de reserva */
+.evento-info p {
+  font-size: 20px !important; 
+  color: #333;
+}
+
+.boton-container {
+  margin-top: -50px; 
+}
+
 .boton-reservar {
   background-color: #8c5170;
   color: white;
@@ -842,18 +1073,19 @@ font-size: 25px;
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin: 10px;
+  transition: background-color 0.5s ease;
+ 
 }
 
 .boton-reservar:hover {
   background-color: #B5C99A;
+ 
 }
 .link-maps {
   color: #007bff;
   text-decoration: none;
   font-family: "Roboto";
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .link-maps:hover {

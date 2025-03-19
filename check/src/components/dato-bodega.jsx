@@ -1,24 +1,41 @@
 import antigal from "../assets/bodega-Antigal/antigal.jpg";
 import antigal1 from "../assets/bodega-Antigal/antigal1.jpg";
 import antigal2 from "../assets/bodega-Antigal/antigal2.jpg";
+import antigal3 from "../assets/bodega-Antigal/antigal3.jpg";
 import argentia from "../assets/bodega-Argentia/Argentia.jpg";
 import argentia1 from "../assets/bodega-Argentia/Argentia1.jpg";
 import argentia2 from "../assets/bodega-Argentia/Argentia2.jpg";
 import argentia3 from "../assets/bodega-Argentia/Argentia3.jpg";
 import cata from "../assets/bodega-Cata/catapano.jpg";
-import cata1 from "../assets/bodega-Cata/catapano1.jpg";
 import cata2 from "../assets/bodega-Cata/catapano2.jpg";
 import cata3 from "../assets/bodega-Cata/catapano3.jpg";
 import atilio from "../assets/bodega-atilio/atilio.jpg";
 import carinae from "../assets/bodega-carinae/carinae.jpg";
+import carinae1 from "../assets/bodega-carinae/carinae1.webp";
+import carinae2 from "../assets/bodega-carinae/carinae2.webp";
 import agostino from "../assets/bodega-casa-agostino/agostino.jpg";
 import casa from "../assets/bodega-casa-vigil/casa.jpg";
+import vigil1 from "../assets/bodega-casa-vigil/vigil1.jpg";
+import vigil2 from "../assets/bodega-casa-vigil/vigil2.jpg";
+import vigil3 from "../assets/bodega-casa-vigil/vigil3.jpg";
 import savina from "../assets/bodega-savina/savina.jpg";
 import domi from "../assets/bodega-domiciano/domiciano.jpg";
+import domi1 from "../assets/bodega-domiciano/domiciano1.jpg";
+import domi2 from "../assets/bodega-domiciano/domiciano2.jpg";
 import villa from "../assets/bodega-viñafañe/villa.jpg";
-import fichman from "../assets/fichaman.jpg";
+import villa1 from "../assets/bodega-viñafañe/villa1.jpeg";
+import villa2 from "../assets/bodega-viñafañe/villa2.jpg";
+import villa3 from "../assets/bodega-viñafañe/villa3.jpeg";
+import fichaman from "../assets/bodega-flichman/fichaman.jpg"
+import fichaman1 from "../assets/bodega-flichman/fichaman1.jpg"
+import fichaman2 from "../assets/bodega-flichman/fichaman2.jpg"
+import fichaman3 from "../assets/bodega-flichman/fichaman3.jpg"
+
 import mevi from "../assets/bodega-mevi/mevi.jpg";
-import cecchin from "../assets/bodega-cecchin/cecchin.jpg"
+import cecchin from "../assets/bodega-cecchin/cecchin.jpg";
+import cecchin1 from "../assets/bodega-cecchin/ceccin1.jpg";
+import cecchin2 from "../assets/bodega-cecchin/ceccin2.jpg";
+import cecchin3 from "../assets/bodega-cecchin/ceccin3.jpeg";
 import bosca from "../assets/bodega-bosca/bosca.jpg"
 import iudica from "../assets/bodega-iudica/iudica.png";
 import guapas from "../assets/bodega-guapas/guapas.webp";
@@ -29,15 +46,31 @@ import stocco from "../assets/bodega-stocco-deviani/stoco.webp";
 import tempus from "../assets/bodega-tempus/tempus.jpg";
 import trapiche from "../assets/bodega-trapiche/trapiche.png";
 import trivento from "../assets/bodega-trivento/trivento.jpg";
+import trivento1 from "../assets/bodega-trivento/trivento1.jpg";
+import trivento2 from "../assets/bodega-trivento/trivento2.jpg";
+import trivento3 from "../assets/bodega-trivento/trivento3.jpg";
 import elcerno from "../assets/bodega-viña-elcerno/viñacerno.jpg";
 import vistades from "../assets/bodega-vistades/vistades.jpg";
 import florio from "../assets/bodega-florio/florio.jpg";
-import donbosco from "../assets/bodega-don-bosco/donbosco.webp";
+import donbosco1 from "../assets/bodega-don-bosco/donbosco1.webp";
+import donbosco2 from "../assets/bodega-don-bosco/donbosco2.jpg";
+import donbosco3 from "../assets/bodega-don-bosco/donbosco3.jpg";
 import añorada from "../assets/bodega-laañorada/añorada.jpg";
 import bombal from "../assets/bodega-bombal/bombal.jpg";
+import bombal1 from "../assets/bodega-bombal/bombal1.jpg";
+import bombal2 from "../assets/bodega-bombal/bombal2.webp";
+import bombal3 from "../assets/bodega-bombal/bombal3.webp";
 import laur from "../assets/olivicola-laur/laur.jpg";
+import laur1 from "../assets/olivicola-laur/laur1.jpg";
+import laur2 from "../assets/olivicola-laur/laur2.jpg";
+import laur3 from "../assets/olivicola-laur/laur3.jpg";
 import alma from "../assets/olivicola-alma-oliva/almaoliva.jpg";
+import alma1 from "../assets/olivicola-alma-oliva/alma1.webp";
+import alma3 from "../assets/olivicola-alma-oliva/alma3.jpg";
 import maguay from "../assets/olivicola-maguay/maguay.jpg";
+import maguay1 from "../assets/olivicola-maguay/maguay1.webp";
+import maguay2 from "../assets/olivicola-maguay/maguay2.webp";
+import maguay3 from "../assets/olivicola-maguay/maguay3.jpg";
 import narviani from "../assets/bodega-narviani/narviani.jpg";
 import mainque from "../assets/bodega-mainque/mainque.jpg";
 import rural from "../assets/bodega-larural/larural.jpg";
@@ -45,6 +78,10 @@ import zemlia from "../assets/bodega-zemlia/zemlia.jpg";
 import esencia from "../assets/bodega-esencia/bodegaEscencia1870.jpg";
 import pasrai from "../assets/olivicola-pasrai/pasrai.jpg"; 
 import perulan from "../assets/bodega-perulan/perulan.jpg"
+import arturo from "../assets/bodega-don-arturo/donarturo.jpg"
+import agostino2 from "../assets/bodega-casa-agostino/agostino2.jpg"
+import agostino3 from "../assets/bodega-casa-agostino/agostino3.jpg"
+import agostino4 from "../assets/bodega-casa-agostino/agostino4.jpg"
 
 
 const bodega = [
@@ -54,7 +91,8 @@ const bodega = [
       images: [
         antigal,
         antigal1,
-        antigal2
+        antigal2,
+        antigal3
       ],
       historia: "Fundada en 1897 en Mendoza, Argentina, es una de las bodegas más antiguas del país. Sus viñedos están situados en el Valle de Uco, a altitudes de hasta 1200 metros sobre el nivel del mar, donde las condiciones climáticas extremas y los suelos pobres favorecen el desarrollo de uvas con sabores complejos. La bodega se destaca por su búsqueda de excelencia y por producir vinos equilibrados que reflejan el terruño mendocino. Antigal es reconocida internacionalmente por la calidad de sus vinos y su distintivo packaging, que incluye una botella pintada y un número 1 de metal.",
       socialMedia: {
@@ -64,7 +102,7 @@ const bodega = [
       horarios: "Lunes a domingo: 12 a 17 horas",
       actividades: ["Almuerzo", "Visitas Guiadas", "Degustación"],
       transporte: {
-        bus: false,       
+        bus: true,       
         taxi: true,      
         bicicleta: true 
       },
@@ -90,15 +128,15 @@ const bodega = [
       email: "info@bodegaargentia.com.ar",
       horarios: ["Lunes a viernes: 11:00 a 16:00",
                  "Sábado, Domingo y Feriados: 12:00 a 17:00"],
-      actividades: ["Almuerzo", "Visitas Guiadas"],
+      actividades: ["Almuerzo", "Visitas Guiadas", "Picnic"],
       transporte: {
         bus: true,       
         taxi: true,      
-        bicicleta: false 
+        bicicleta: true 
       },
       idiomas: {
         ingles: true,
-        portugues: true
+        portugues: false
     },
       location: { lat:-32.964862676370906, long:-68.77920587576227}, 
       direccion:  "Boedo 271, M5511 Maipú, Mendoza",
@@ -116,7 +154,7 @@ const bodega = [
       horarios: [" Lunes a Sábado de 09:00  a 17:00"],
       actividades: ["Almuerzo", "Visitas Guiadas", "Degustación"],
       transporte: {
-        bus: true,       
+        bus: false,       
         taxi: true,      
         bicicleta: false 
       },
@@ -132,7 +170,9 @@ const bodega = [
       id: 4,
       nombre: "Carinae", 
       images: [
-        carinae
+        carinae,
+        carinae1,
+        carinae2
       ],
       historia: "Creada por un matrimonio francés, Carinae está actualmente en manos de una joven y entusiasta familia, comprometida con continuar el legado. Ubicada en Cruz de Piedra, la bodega ofrece visitas guiadas y diversas degustaciones. Durante el recorrido, los visitantes pueden encontrar olivos Arauco de 90 años y un viñedo.",
       socialMedia: {instagram: " https://www.instagram.com/bodegacarinae?igsh=b2ZzaHYxOHAwM2l1", paginaWeb: "https://linktr.ee/bodegaCarinae" },
@@ -142,7 +182,8 @@ const bodega = [
       transporte:{ 
         bus: true,       
         taxi: true,      
-        bicicleta: false ,},
+        bicicleta: true 
+      },
         idiomas: {
           ingles: true,
           portugues: false
@@ -155,7 +196,10 @@ const bodega = [
       id: 5,
       nombre: "Agostino", 
       images: [
-        agostino
+        agostino,
+        agostino2,
+        agostino3,
+        agostino4
       ],
       historia: "Casa Agostino es la historia de cuatro hermanos de origen italiano: Vincenzo, Rosalía, Sebastián y Miguel Agostino, quienes vivieron su niñez en Mendoza antes de trasladarse con su familia a Canadá en los años '60. Mendoza siempre representó para ellos la tierra de la infancia, que compartieron con sus padres. Los cuatro hermanos se prometieron volver a Mendoza con el sueño de construir una bodega que honre la memoria de su familia. Así, en 2003 regresaron a la provincia y, en Barrancas, Maipú, comenzaron un nuevo capítulo de su historia y construyeron su legado: los vinos de Agostino.",
       socialMedia: {instagram: " https://www.instagram.com/casa_agostino?igsh=cnN5YjAxc2Nhcmhx", paginaWeb: "https://casaagostino.com/" },
@@ -169,7 +213,7 @@ const bodega = [
       },
         idiomas: {
           ingles: true,
-          portugues: true
+          portugues: false
       },
       location: { lat: -33.103749, long: -68.671024},  
       direccion:  " Carril Barrancas 10590, M5517 Maipú, Mendoza, Argentina",
@@ -180,7 +224,6 @@ const bodega = [
       nombre: "Catapano", 
       images: [
         cata,
-        cata1,
         cata2,
         cata3
       ],
@@ -192,7 +235,7 @@ const bodega = [
       transporte: {
         bus: true,       
         taxi: true,      
-        bicicleta: false ,},
+        bicicleta: true},
       idiomas: {
         ingles: true,
         portugues: false
@@ -205,7 +248,10 @@ const bodega = [
       id: 7,
       nombre: "Casa Vigil", 
       images: [
-        casa
+        casa,
+        vigil1,
+        vigil2,
+        vigil3
       ],
       historia: " En Chachingo, Maipú, Casa Vigil se inspira en la Divina Comedia de Dante Alighieri, ofreciendo una experiencia enoturística que combina vino, gastronomía y literatura. Fundada por Alejandro Vigil y su esposa María Sance, con la visión de crear un espacio mágico para su familia y visitantes, la bodega ha evolucionado en un destino líder en experiencias vinícolas. Integra arte local, naturaleza y vida familiar en un ambiente que evoca el infierno, el purgatorio y el paraíso de la obra de Dante.",
       socialMedia: {instagram: "https://www.instagram.com/casavigil?igsh=N2R1NDFyMXZpZnB6", paginaWeb: "https://universovigil.com/casavigil-chachingo.html" },
@@ -215,7 +261,7 @@ const bodega = [
       transporte: {
         bus: true,       
         taxi: true,      
-        bicicleta: true 
+        bicicleta: false 
       },
       idiomas: {
         ingles: true,
@@ -237,13 +283,13 @@ const bodega = [
       horarios: [" Martes a Domingo de 09:30 a 17:30"],
       actividades: ["Almuerzo", "Picnic"  , "Visitas Guiadas", "Degustación"],
       transporte: {
-        bus: true,       
+        bus: false,       
         taxi: true,      
-        bicicleta: false 
+        bicicleta: true 
       },
       idiomas: {
         ingles: true,
-        portugues: true
+        portugues: true, 
       },
       location: { lat:-33.039512995190975, long:-68.80634776225416}, 
       direccion:  "Callejón Zapata 771 -Lunlunta, Maipú, Mendoza",
@@ -253,7 +299,9 @@ const bodega = [
       id: 9,
       nombre: "Domiciano", 
       images: [
-        domi
+        domi,
+        domi1,
+        domi2
       ],
       historia: "  Es una bodega familiar, amante y respetuosa del buen vino y de sus tradiciones. La bodega fue construida en 1919 en Coquimbito, Maipú, Provincia de Mendoza. A nivel arquitectónico, conjuga dos tendencias: instalaciones de última tecnología para la elaboración de vinos premium y una fachada tradicional de principios del siglo XX. Los vinos se cosechan y elaboran después de la caída del sol, con millas de estrellas como testigo.",
       socialMedia: {instagram: " https://www.instagram.com/bodegadomiciano?igsh=azRic3RkajIyNWtk", paginaWeb: "https://www.domiciano.com.ar/" },
@@ -277,7 +325,11 @@ const bodega = [
       id: 10,
       nombre: "Don Villafañe", 
       images: [
-        villa
+        villa,
+        villa1,
+        villa2,
+        villa3
+
       ],
       historia: "La Familia Villafañe tiene casi 400 años en el negocio del vino, con viñedos en Mendoza, al pie de los Andes, la principal zona vinícola de Argentina. Don Manuel Villafañe, quien llegó en 1611 como soldado, se convirtió en pionero de la viticultura en Argentina al plantar vides para abastecer a sacerdotes y colonos. Los viñedos están situados en un antiguo lecho de río prehistórico. La bodega, equipada con tecnología avanzada y capacidad para 1,2 millones de litros en cubas de acero inoxidable, roble y cemento, está diseñada para cumplir con los estándares internacionales más exigentes.",
       socialMedia: {instagram: " https://www.instagram.com/bodegavillafane?igsh=aTh5Z2ZlbXZtdzM5", paginaWeb: "https://dmvwines.com" },
@@ -287,7 +339,7 @@ const bodega = [
       transporte: {
         bus: true,       
         taxi: true,      
-        bicicleta: true 
+        bicicleta: false 
       },
       idiomas: {
         ingles: true,
@@ -301,17 +353,20 @@ const bodega = [
       id: 11,
       nombre: "Flichman", 
       images: [
-        fichman
+        fichaman,
+        fichaman1,
+        fichaman2,
+        fichaman3
       ],
       historia: "Finca Flichman, fundada en 1910, es una de las bodegas más antiguas y prestigiosas de Mendoza, Argentina, y desde 1998 es parte del grupo portugués SOGRAPE. Tiene viñedos en dos regiones destacadas: Barrancas, Maipú, una de las primeras zonas vitivinícolas de Argentina, y Tupungato, Valle de Uco, conocida por su altitud y condiciones climáticas excepcionales. La bodega se especializa en la elaboración de vinos con un legado que ofrece experiencias únicas y memorables para los amantes del vino.",
       socialMedia: {instagram: " https://www.instagram.com/fincaflichman?igsh=MXN1YjRvbWhkYjlkOQ==", paginaWeb: " https://flichman.com.ar/" },
       email: "turismo@flichman.com.ar",
       horarios: ["Lunes a viernes: 09:00 a 17:00 "],
-      actividades: ["Almuerzo", "Cena",  "Visitas Guiadas", "Degustación"],
+      actividades: ["Almuerzo", "Cena",  "Visitas Guiadas", "Degustación", "Picnic"],
       transporte: {
         bus: true,       
         taxi: true,      
-        bicicleta: true 
+        bicicleta: false 
       },
       idiomas: {
         ingles: true,
@@ -339,7 +394,7 @@ const bodega = [
       },
       idiomas: {
         ingles: true,
-        portugues: true
+        portugues: false
       },
       location: { lat:-33.003687, long: -68.740851}, 
       direccion:  "Av. Perito Moreno 1751 - Maipú - Mendoza - Argentina",
@@ -349,7 +404,10 @@ const bodega = [
       id: 13,
       nombre: "Cecchin", 
       images: [
-        cecchin
+        cecchin,
+        cecchin1,
+        cecchin2,
+        cecchin3
       ],
       historia: "Cargando solo con sus sueños y una aventura por delante, Santiago y María Cecchin llegaron al suelo argentino alrededor de 1910, dejando atrás su Treviso natal. Con claridad, transmitieron su amor por la madre tierra, a la que debían preservar con pasión y dedicación. Hoy, Alberto Cecchin consolida más de 100 años de producción artesanal, libre de agregados químicos, e invita a soñar con un lugar mejor, a vivir el paisaje, a disfrutar de esta casa, a apasionarse por el mundo orgánico ya por un mundo orgánico y mejor para todos.",
       socialMedia: {
@@ -359,7 +417,7 @@ const bodega = [
       horarios: "Lunes a Sábado de 09:30 a 17:30",
       actividades: ["Picadas", "Visitas Guiadas", "Degustación"],
       transporte: {
-        bus: false,       
+        bus: true,       
         taxi: true,      
         bicicleta: true 
       },
@@ -385,7 +443,7 @@ const bodega = [
       transporte: {
         bus: true,       
         taxi: true,      
-        bicicleta: true 
+        bicicleta: false 
       },
       idiomas: {
         ingles: true,
@@ -409,7 +467,7 @@ const bodega = [
       transporte: {
         bus: true,       
         taxi: true,      
-        bicicleta: true 
+        bicicleta: false 
       },
       idiomas: {
         ingles: true,
@@ -437,7 +495,7 @@ const bodega = [
     },
     idiomas: {
       ingles: true,
-      portugues: true
+      portugues: false
     },
     location: {lat:-33.037024, long: -68.752656}, 
     direccion:  "Videla Aranda 4424, Chachingo, Mendoza",
@@ -481,11 +539,11 @@ const bodega = [
       transporte: {
       bus: true,       
       taxi: true,      
-      bicicleta: true 
+      bicicleta: false 
       },
     idiomas: {
       ingles: true,
-      portugues: true
+      portugues: false
       },
     location: {lat:-32.969564, long:  -68.566769}, 
     direccion:  "Ruta Provincial 33, km 7,5 (M5531) Maipú, Mendoza, Argentina",
@@ -533,7 +591,7 @@ const bodega = [
       },
       idiomas: {
         ingles: true,
-        portugues: true
+        portugues: false
       },
       location: {lat: -33.029969, long: - -68.797591}, 
       direccion:  "Ramón Videla Aranda 565 5586 Maipú Mendoza",
@@ -557,7 +615,7 @@ const bodega = [
       },
       idiomas: {
         ingles: true,
-        portugues: true
+        portugues: false
       },
       location: {lat:-33.001708, long: -68.751415}, 
       direccion:  "Carril Perito Moreno 572, Coquimbito - Maipú - Mendoza - Argentina CP",
@@ -575,9 +633,9 @@ const bodega = [
       horarios: ["Lunes a Domingo 09:30 a 17:00"],
       actividades: ["Almuerzo", "Cena", "Visitas Guiadas", "Degustación", "Curso de Maridajes"],
       transporte: {
-        bus: true,       
+        bus: false,       
         taxi: true,      
-        bicicleta: true 
+        bicicleta: false 
       },
       idiomas: {
         ingles: true,
@@ -591,7 +649,10 @@ const bodega = [
       id: 23,
       nombre: "Trivento", 
       images: [
-        trivento
+        trivento,
+        trivento1,
+        trivento2,
+        trivento3
       ],
       historia: "Trivento es la filial argentina de Viña Concha y Toro Family of Wineries y un símbolo de los vinos de alta gama de Argentina. Desde su fundación en 1996, ha forjado un portafolio exclusivo de vinos que preserva el carácter de los terruños mendocinos y desafía los vientos característicos de la región. La continua inversión e investigación en tecnologías, infraestructura y conocimiento la han posicionado entre las principales exportadoras de vino embotellado del país y como la marca de vino argentina más vendida en Europa. Las políticas de derechos humanos, cuidado del medio ambiente, calidad e inocuidad respaldan a sus 420 colaboradores y los millones de consumidores que la eligen en todo el mundo. La bodega se ha consolidado como líder en ventas globales, en calidad vitivinícola y en desarrollo sustentable",
       socialMedia: {instagram: "https://www.instagram.com/triventous?igsh=MTcydHRreXpubnA0OA==", paginaWeb: "www.trivento.com.ar" },
@@ -599,7 +660,7 @@ const bodega = [
       horarios: [" Lunes a Domingo de 09:00 a 18.00."],
       actividades: ["Almuerzo", "Visitas Guiadas", "Degustación", "Maridajes"],
       transporte: {
-        bus: true,       
+        bus: false,       
         taxi: true,      
         bicicleta: true 
       },
@@ -623,13 +684,13 @@ const bodega = [
     horarios: ["Lunes a Sabado de 09:00 a 16:00."],
     actividades: ["Visitas Guiadas", "Degustación"],
     transporte: {
-      bus: true,       
+      bus: false,       
       taxi: true,      
       bicicleta: true 
     },
     idiomas: {
       ingles: true,
-      portugues: true
+      portugues: false
     },
     location: {lat:-33.002197, long: -68.749978}, 
     direccion:  "Moreno 631 - Coquimbito, Maipú, Argentina",
@@ -653,7 +714,7 @@ const bodega = [
     },
     idiomas: {
       ingles: true,
-      portugues: true
+      portugues: false
     },
     location: {lat: -33.024164, long: -68.758840}, 
     direccion:  "Urquiza 5517, Maipú, Mendoza Argentina",
@@ -687,7 +748,9 @@ const bodega = [
     id: 27,
     nombre: "Don Bosco", 
     images: [
-      donbosco
+      donbosco1,
+      donbosco2,
+      donbosco3
     ],
     historia: "Bodega Don Bosco tiene una rica y larga historia, una de las más antiguas e importantes de la vitivinicultura argentina, siempre ligada íntimamente a la dedicada labor de los salesianos. Veamos algunos hitos importantes. Hacia 1875 llegan al distrito de Rodeo del Medio, departamento de Maipú los primeros salesianos con la misión de desarrollar actividades de evangelización, educación y promoción social de los inmigrantes de la zona.",
     socialMedia: {instagram: "https://www.instagram.com/bodegadonbosco/", paginaWeb: "https://bodegadonbosco.com.ar/#" },
@@ -700,7 +763,7 @@ const bodega = [
       bicicleta: true 
     },
     idiomas: {
-      ingles: false,
+      ingles: true,
       portugues: false
     },
     location: {lat: -32.992620, long:-68.681587}, 
@@ -719,13 +782,13 @@ const bodega = [
     horarios: ["Lunes a Viernes de 08:00 a 18:00."],
     actividades: ["Visitas Guiadas"],
     transporte: {
-      bus: true,       
+      bus: false,       
       taxi: true,      
       bicicleta: true 
     },
     idiomas: {
-      ingles: false,
-      portugues: false
+      ingles: true,
+      portugues: true
     },
     location: {lat: -33.036221, long:-68.799969}, 
     direccion:  "C. Nueva s/n, Cruz de Piedra, Mendoza",
@@ -735,7 +798,10 @@ const bodega = [
     id: 29,
     nombre: "Bombal", 
     images: [
-      bombal
+      bombal,
+      bombal1,
+      bombal2,
+      bombal3
     ],
     historia: " Profundamente arraigados en el espíritu pionero del Valle de Lunlunta, Maipú, los vinos de Bodega Bombal nacen de la herencia, el trabajo duro y el cuidado atento y respetuoso de nuestros viñedos. Lunlunta, la tierra que una vez sustentó a culturas precolombinas y luego a viticultores visionarios, alberga hoy más de 700 hectáreas de viñedos en las riberas altas al norte del río Mendoza. Nuestros vinos se destacan como una expresión audaz de este lugar, cada uno con su propia historia que contar.",
     socialMedia: {instagram: "https://www.instagram.com/bodegabombal/?hl=es", paginaWeb: " https://bodegabombal.com/" },
@@ -745,21 +811,24 @@ const bodega = [
     transporte: {
       bus: true,       
       taxi: true,      
-      bicicleta: true 
+      bicicleta: false 
     },
     idiomas: {
-      ingles: false,
+      ingles: true,
       portugues: false
     },
     location: {lat: -33.041209, long: -68.818472}, 
     direccion:  "Cjón. Zapata s/n, M5517 Maipú, Mendoza",
-    whatsapp: "+549 2617 485523 "
+    whatsapp: "+549 2617 485523"
   },
   {
     id: 30,
     nombre: "Olivícola Laur", 
     images: [
-      laur
+      laur,
+      laur1,
+      laur2,
+      laur3
     ],
     historia: "Fundada en 1889, Laur fue una de las pioneras en la plantación de olivares y en la producción de aceite de oliva en la provincia de Mendoza. En 2021, la empresa fue reconocida por el EVOO World Ranking como la olivícola número uno del mundo. Este logro se repitió en la edición de 2022, posicionando a Laur en el Top 100 de las mejores olivícolas del mundo por segundo año consecutivo.",
     socialMedia: {instagram: "https://www.instagram.com/olivicolalaur", paginaWeb: "https://laur.ar/" },
@@ -772,8 +841,8 @@ const bodega = [
       bicicleta: true 
     },
     idiomas: {
-      ingles: false,
-      portugues: false
+      ingles: true,
+      portugues: true
     },
     location: {lat: -33.033237, long:-68.769414}, 
     direccion:  "Videla Aranda 2850 - Cruz de Piedra Maipú - Mendoza - Argentina",
@@ -783,7 +852,9 @@ const bodega = [
     id: 31,
     nombre: "Olivícola Alma Oliva", 
     images: [
-      alma
+      alma,
+      alma1,
+      alma3
     ],
     historia: "Finca familiar dedicada a la producción y venta de aceite de oliva y productos gourmet. ‘Almaoliva’ es el resultado de la combinación de recursos naturales, tecnología avanzada y personas apasionadas.",
     socialMedia: {instagram: "https://www.instagram.com/almaolivamza/", paginaWeb: "https://fincaalmaoliva.com.ar/#pedidos@almaoliva.com.ar" },
@@ -791,13 +862,13 @@ const bodega = [
     horarios: ["Lunes a Viernes: 8:15hs  a 17hs."],
     actividades: ["Visita guiada", "Degustación"],
     transporte: {
-      bus: true,       
+      bus: false,       
       taxi: true,      
       bicicleta: true 
     },
     idiomas: {
-      ingles: false,
-      portugues: false
+      ingles: true,
+      portugues: true
     },
     location: {lat: -32.950218, long: -68.771467} , 
     direccion:  "Monte Caseros 150, M5511 Maipú, Mendoza",
@@ -807,7 +878,10 @@ const bodega = [
     id: 32,
     nombre: "Olivícola Maguay", 
     images: [
-      maguay
+      maguay,
+      maguay1,
+      maguay2,
+      maguay3
     ],
     historia: "La empresa familiar, fundada en 1920, se ha dedicado a lo largo de los años a la agroindustria. Está ubicada en el distrito de Russell, en Maipú, Mendoza, Argentina, y posee 100 hectáreas de olivos y una planta de elaboración de aceitunas en conserva. Originalmente, las fincas eran viñedos, pero en la década de 1980 se decidió enfocar todos los esfuerzos en la producción olivícola. Desde 1982, la empresa exporta aceitunas verdes y negras en conserva y, a partir de 2009, produce aceites de oliva extra virgen. La política de desarrollo agroindustrial de la empresa se basa en minimizar el impacto ambiental. Las condiciones climáticas y del suelo, junto con el cuidado del olivar y su entorno, permiten obtener una materia prima de alta calidad, constante y sostenible. ",
     socialMedia: {instagram: "https://www.instagram.com/Maguayoliva/", paginaWeb: "https://maguay.com.ar/" },
@@ -820,7 +894,7 @@ const bodega = [
       bicicleta: true 
     },
     idiomas: {
-      ingles: false,
+      ingles: true,
       portugues: false
     },
     location: {lat: -33.002400, long:-68.795713}, 
@@ -829,7 +903,7 @@ const bodega = [
   },
   {
     id: 33,
-    nombre: "Narviani", 
+    nombre: "Nerviani", 
     images: [
       narviani
     ],
@@ -844,7 +918,7 @@ const bodega = [
       bicicleta: true 
     },
     idiomas: {
-      ingles: false,
+      ingles: true,
       portugues: false
     },
     location: {lat:  -32.991358, long:-68.794438}, 
@@ -868,7 +942,7 @@ const bodega = [
       bicicleta: true 
     },
     idiomas: {
-      ingles: false,
+      ingles: true,
       portugues: false
     },
     location: {lat: -33.016086, long: -68.758897}, 
@@ -892,7 +966,7 @@ const bodega = [
       bicicleta: true 
     },
     idiomas: {
-      ingles: false,
+      ingles: true,
       portugues: false
     },
     location: {lat: -32.956436, long:-68.74476}, 
@@ -916,7 +990,7 @@ const bodega = [
       bicicleta: true 
     },
     idiomas: {
-      ingles: false,
+      ingles: true,
       portugues: false
     },
     location: {lat: -33.013569, long: -68.799014}, 
@@ -937,10 +1011,10 @@ const bodega = [
     transporte: {
       bus: true,       
       taxi: true,      
-      bicicleta: true 
+      bicicleta: false 
     },
     idiomas: {
-      ingles: false,
+      ingles: true,
       portugues: false
     },
     location: {lat: -32.956399, long: -68.762118}, 
@@ -957,14 +1031,14 @@ const bodega = [
     socialMedia: {instagram: "https://www.instagram.com/bodegazemlia/", paginaWeb: "http://www.bodegazemlia.com/" },
     email: "info@bodegazemlia.com",
     horarios: ["Lunes a Viernes de 9:30 a 17:00"],
-    actividades: ["Platos tradicionales", "Visitas guiadas", "Degustación"],
+    actividades: ["Visitas guiadas", "Degustación"],
     transporte: {
       bus: true,       
       taxi: true,      
       bicicleta: true 
     },
     idiomas: {
-      ingles: false,
+      ingles: true,
       portugues: false
     },
     location: {lat: -32.989058, long: -68.773074}, 
@@ -981,7 +1055,7 @@ const bodega = [
     socialMedia: {instagram: "https://www.instagram.com/bodegamainque/", paginaWeb: "https://www.bodegasmainque.com.ar" },
     email: "ventas@bodegasmainque.com.ar",
     horarios: ["Lunes a Viernes de 8:00 a 18:00"],
-    actividades: [""],
+    actividades: ["Solo venta de Vinos"],
     transporte: {
       bus: true,       
       taxi: true,      
@@ -994,6 +1068,30 @@ const bodega = [
     location: {lat: -33.033209, long: -68.768746}, 
     direccion:  "Videla Aranda 3512, M5517 Cruz de Piedra, Mendoza",
     whatsapp: "+011 44196805 "
+  },
+  {
+    id: 40,
+    nombre: "Don Arturo", 
+    images: [
+      arturo
+    ],
+    historia: "Cavas de Don Arturo, ubicada en el pintoresco Valle de Lunlunta, Maipú, es una bodega que se destaca en una zona reconocida mundialmente por la calidad de sus vinos. Su enclave privilegiado ofrece condiciones ideales, desde la riqueza del suelo hasta el agua pura de la Cordillera de los Andes, amplitudes térmicas notables y la intensa luminosidad del sol, perfectas para el cultivo de varietales tintos como Malbec, Cabernet Sauvignon, Merlot y Syrah. Construida en 1926 por un matrimonio belga-francés, la bodega y su chalet reflejan un lujoso estilo francés en su arquitectura. ",
+    socialMedia: {instagram: "https://www.instagram.com/cavasdedonarturo/", paginaWeb: "" },
+    email: "cavasdonarturo@yahoo.com.ar",
+    horarios: ["Lunes a Viernes de 8:00 a 16:00"],
+    actividades: ["Visitas Guiadas"],
+    transporte: {
+      bus: true,       
+      taxi: true,      
+      bicicleta: true 
+    },
+    idiomas: {
+      ingles: true,
+      portugues: false
+    },
+    location: {lat: -33.033209, long: -68.768746}, 
+    direccion:  "Videla Aranda 3512, M5517 Cruz de Piedra, Mendoza",
+    whatsapp: "+549 2614540843 "
   },
 
 ]

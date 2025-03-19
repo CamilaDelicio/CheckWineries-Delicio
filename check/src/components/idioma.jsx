@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css"
-import en from "../assets/ingles.jpg";
-import pt from "../assets/portugues.jpg";
+import en from "../assets/ingles(2).png";
+import pt from "../assets/portugues(4).png";
 import "./dato-bodega";
 
 

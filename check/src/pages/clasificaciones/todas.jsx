@@ -6,6 +6,7 @@ import { useState } from 'react';
 
 const ListaBodega = () => {
   const [busqueda, setBusqueda]= useState("")
+
   const busquedaBodega = bodega.filter(bodegaItem => {
     const palabrasBodega = bodegaItem.nombre.toLowerCase().split(" "); 
     const palabrasBusqueda = busqueda.toLowerCase().split(" "); 
@@ -13,7 +14,11 @@ const ListaBodega = () => {
     return palabrasBusqueda.some(busquedaPalabra => 
       palabrasBodega.some(bodegaPalabra => bodegaPalabra.includes(busquedaPalabra))
     );
+  })
+  .sort((a, b) => {
+    return a.nombre.localeCompare(b.nombre);
   });
+
   
     return (
       <div className="body-comidas">

@@ -31,7 +31,7 @@ const Terminos = () => {
 
       <h3>4. Registro de Usuarios</h3>
       <p>
-        Para acceder a ciertas funciones, se te puede solicitar que proporciones tu correo electrónico, nombre y contraseña. Esta información se utiliza únicamente para:
+        Para acceder a ciertas funciones, se te puede solicitar que proporciones tu correo electrónico y contraseña. Esta información se utiliza únicamente para:
       </p>
       <ul>
         <li>Verificar tu identidad.</li>
@@ -45,22 +45,17 @@ const Terminos = () => {
         Todo el contenido de este sitio web, incluidos textos, imágenes y gráficos, es propiedad exclusiva del titular del sitio, salvo que se indique lo contrario. No está permitido copiar, distribuir o modificar el contenido sin autorización previa.
       </p>
 
-      <h3>6. Valoraciones y Comentarios</h3>
-      <p>
-        Los usuarios pueden valorar la utilidad de la información. Al hacerlo, aceptas no publicar contenido ofensivo, ilegal o inapropiado.
-      </p>
-
-      <h3>7. Limitación de Responsabilidad</h3>
+      <h3>6. Limitación de Responsabilidad</h3>
       <p>
         No nos hacemos responsables de posibles errores en la información ni de interrupciones en el servicio. El uso del sitio web es bajo tu propio riesgo.
       </p>
 
-      <h3>8. Modificaciones a los Términos</h3>
+      <h3>7. Modificaciones a los Términos</h3>
       <p>
         Nos reservamos el derecho de modificar estos Términos y Condiciones en cualquier momento. Se notificará a los usuarios sobre cambios importantes mediante un aviso en el sitio web.
       </p>
 
-      <h3>9. Contacto</h3>
+      <h3>8. Contacto</h3>
       <p>
         Si tienes dudas o sugerencias sobre estos Términos y Condiciones, puedes contactarnos a través del formulario de contacto disponible en el sitio web.
       </p>

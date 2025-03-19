@@ -1,11 +1,15 @@
 import React,  { useEffect} from "react";
+import { useLocation } from "react-router-dom";
 import eventos from "../components/dato-evento";
-import { format } from 'date-fns'; // Importa la función 'format' de date-fns
-import { es } from 'date-fns/locale'; // Para que el formato sea en español
+
 
 
 const Evento = () => {
-    
+   const location = useLocation();
+
+   const eventosOrdenados = [...eventos].sort((a, b) => {
+    return new Date(a.fecha) - new Date(b.fecha);
+  });
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [location])
@@ -13,7 +17,7 @@ const Evento = () => {
     return (
         <div className="lista-eventos">
             <h1>Lista de Eventos</h1>
-            {eventos.map((evento, index) => (
+            {eventosOrdenados.map((evento, index) => (
                 <div key={index} className="card-evento">
                   <img 
                     src={evento.foto} 
@@ -47,15 +51,17 @@ const Evento = () => {
                     
                   </div>
                   
-                    <a 
-                        href={`https://wa.me/${evento.contacto}?text=Hola, quiero reservar para el evento ${evento.nombre} que se realiza el día ${new Date(evento.fecha).toLocaleDateString('es-ES', { timeZone: 'UTC' })}`} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                    >
-                    <button className="boton-reservar">
-                        Reservar
-                    </button>
-                    </a>
+                  <div className="boton-container">
+                      <a 
+                      href={`https://wa.me/${evento.contacto}?text=Hola, quiero reservar para el evento ${evento.nombre} que se realiza el día ${new Date(evento.fecha).toLocaleDateString('es-ES', { timeZone: 'UTC' })}, ¿Podrían darme más información sobre disponibilidad? Gracias.`} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      >
+                      <button className="boton-reservar">
+                      Reservar
+                      </button>
+                      </a>
+                  </div>
                 </div>
               ))}
             </div>

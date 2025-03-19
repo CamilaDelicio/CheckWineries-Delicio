@@ -1,7 +1,7 @@
 import "../index.css";
 import React from "react";
 import { Link } from "react-router-dom";
-import logofooter from "../assets/logofooter.png";
+import logofooter from "../assets/logocheck1.png";
 
 
 const Footer = () => {
@@ -14,7 +14,6 @@ const Footer = () => {
                         <Link to="/preguntas">Preguntas Frecuentes</Link><br></br>
                         <Link to="/politicas">Política de Privacidad</Link><br></br>
                         <Link to="/terminos">Terminos y Condiciones</Link><br></br>
-                        <Link to="/nuevasBodegas">Suma tu Bodega</Link><br />
                     </li>
                 </ul>
             </div>
@@ -23,7 +22,11 @@ const Footer = () => {
             </div>
             <div className="formulario">
                 <p>¿Tenés alguna duda o sugerencia?</p>
-                <button>Contáctanos</button>
+                
+                    <Link to="/consultas">
+                    <button>Contáctanos </button>
+                    </Link>
+               
             </div>
 
         </div>

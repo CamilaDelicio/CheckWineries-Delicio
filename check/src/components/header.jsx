@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../src/index.css";
 import menu from "../assets/menu.png";
-import logotipo from "../assets/check(4).png"
+import logotipo from "../assets/logocheck1.png"
 import { Link } from "react-router-dom";
 
 
@@ -30,7 +30,7 @@ const Header = () => {
             <nav className={menuOpen ? "menu-desplegable show" : "menu-desplegable"}>
             <ul>
                 <li>
-                    <Link to="/" onClick={cerrarMenu}> Inicio</Link>
+                    <Link to="/inicio" onClick={cerrarMenu}> Inicio</Link>
                 </li>
                 <li onClick={() => clicSeccion("bodegas")}>
                     <Link>Lista Bodegas</Link>
@@ -49,8 +49,7 @@ const Header = () => {
                 <Link>Eventos</Link>
                 {seccionAct === "eventos" && (
                   <ul className="sub-menu">
-                    <li><a href="#catas">Catas de vino</a></li>
-                    <li><a href="#maridajes">Maridajes</a></li>
+                    <li><Link to= "/eventos" onClick={cerrarMenu}>Lista de Eventos</Link></li>
                   </ul>
                 )}
               </li>

@@ -1,4 +1,4 @@
-import React from 'react';
+import {React} from 'react';
 import Inicio from './pages/inicio';
 import Bodegas from './pages/bodegas';
 import Header from './components/header';
@@ -14,32 +14,37 @@ import PregFrecuentes from './pages/preguntas';
 import PolPrivacidad from './pages/politicas';
 import Terminos from './pages/terminos';
 import Evento from './pages/eventos';
+import Register from "./pages/register";
+import Login from './pages/login';
+import RutaPrivada from './components/rutaprivada';
+import Consulta from './pages/consultas';
 
 
 function App() {
   return(
     <div>
       <BrowserRouter>
-        <Header/>
         <Routes>
-          <Route path='/' element= {<Inicio/>}></Route>
-          <Route path='/bodegas' element= {<Bodegas/>}></Route>
-          <Route path='/comidas' element= {<Comidas/>}></Route>
-          <Route path='/actividades' element= {<Actividades/>}></Route>
-          <Route path='/todas' element= {<ListaBodega/>}></Route>
-          <Route path='/detalles/:id' element= {<DetalleBodega/>}></Route>
-          <Route path='/olivicultura' element= {<Olivicola/>}></Route>
-          <Route path='/museos' element= {<Museo/>}></Route>
-          <Route path='/preguntas' element= {<PregFrecuentes/>}></Route>
-          <Route path='/politicas' element= {<PolPrivacidad/>}></Route>
-          <Route path='/terminos' element= {<Terminos/>}></Route>
-          <Route path='/eventos' element= {<Evento/>}></Route>
+          <Route path='/register' element={<Register />} />
+          <Route path='/login' element={<Login />} />
 
-          <Route path='/eventos/:nombre' element= {<Evento/>}></Route>
-          
-
+          <Route element={<RutaPrivada/>}>
+                <Route path="/inicio" element={<><Header /><Inicio /><Footer /></>} />
+                <Route path="/bodegas" element={<><Header /><Bodegas /><Footer /></>} />
+                <Route path="/comidas" element={<><Header /><Comidas /><Footer /></>} />
+                <Route path="/actividades" element={<><Header /><Actividades /><Footer /></>} />
+                <Route path="/todas" element={<><Header /><ListaBodega /><Footer /></>} />
+                <Route path="/detalles/:id" element={<><Header /><DetalleBodega /><Footer /></>} />
+                <Route path="/olivicultura" element={<><Header /><Olivicola /><Footer /></>} />
+                <Route path="/museos" element={<><Header /><Museo /><Footer /></>} />
+                <Route path="/preguntas" element={<><Header /><PregFrecuentes /><Footer /></>} />
+                <Route path="/politicas" element={<><Header /><PolPrivacidad /><Footer /></>} />
+                <Route path="/terminos" element={<><Header /><Terminos /><Footer /></>} />
+                <Route path="/eventos" element={<><Header /><Evento /><Footer /></>} />
+                <Route path="/consultas" element={<><Header /><Consulta /><Footer /></>} />
+                </Route>
+                <Route path="*" element={<Login />} />
         </Routes>
-        <Footer/>
       </BrowserRouter>
     </div>
   )

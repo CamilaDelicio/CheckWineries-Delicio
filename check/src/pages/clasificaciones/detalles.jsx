@@ -13,6 +13,9 @@ import Whatsapp from "../../components/whatsapp";
 const DetalleBodega = () => {
     const {id} = useParams();
     const bodegaEncontrada = bodega.find(bodegaItem => bodegaItem.id === parseInt(id) )
+    if (!bodegaEncontrada) {
+        return <h1>Bodega no encontrada</h1>;
+    }
     
     const location = useLocation();
       
@@ -51,10 +54,12 @@ return (
             <div className="transporte">
                 <h2>Transporte:</h2>
                 <Transporte  transporte={bodegaEncontrada.transporte}></Transporte>
-                <div className="idiomas"> 
+            <div className="idiomas"> 
                     <h2>Idiomas disponibles:</h2>
-                    <Idioma  idiomas={bodegaEncontrada.idiomas}></Idioma>
-                </div>
+                    <div className="iconos-idiomas">
+                        <Idioma idiomas={bodegaEncontrada.idiomas} />
+                    </div>
+            </div>
             </div>
             <div className="maps">
                 <h2>Ubicación:</h2>
