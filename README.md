@@ -2,7 +2,6 @@
 📝 Descripción<br/>
 CheckWineries es una aplicación que conecta a los turistas con las bodegas del departamento de Maipú, Mendoza, ayudándolos a encontrar cuál se adapta mejor a sus gustos y necesidades.
 <br/>
-🔍 ¿Qué ofrece?<br/>
 Los usuarios pueden explorar información detallada de cada bodega:<br/>
 📍 Ubicación <br/>
 🌐 Redes sociales y sitio web<br/>
@@ -12,7 +11,7 @@ Los usuarios pueden explorar información detallada de cada bodega:<br/>
 🎉 Actividades y eventos<br/>
 📸 Imagenes reales<br/>
 
-📊 Clasificación personalizada<br/>
+Clasificación personalizada<br/>
 Las bodegas están clasificadas según sus principales propuestas para facilitar la búsqueda del visitante:<br/>
 🍽️ Comida<br/>
 🏞️ Actividades<br/>
