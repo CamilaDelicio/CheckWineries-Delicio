@@ -6,7 +6,7 @@ Los usuarios pueden explorar información detallada de cada bodega:<br/>
 📍 Ubicación <br/>
 🌐 Redes sociales y sitio web<br/>
 📞 Medios de contacto<br/>
-🍇 Experiencias y servicios disponibles<br/>
+🍇 Actividades<br/>
 🕒 Horarios de atención<br/>
 🎉 Actividades y eventos<br/>
 📸 Imagenes reales<br/>
