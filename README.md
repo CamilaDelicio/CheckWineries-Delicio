@@ -24,15 +24,10 @@ El sistema brinda una experiencia completa para que los turistas encuentren fác
 
 ## 🛠️ Tecnologías utilizadas
 🧠 *Backend:*
-🌐 Node.js
-🚂 Express.js 
-🗃️ MySQL
+ Node.js | Express.js | MySQL
 
 🎨 *Frontend:*
-⚛️ React 
-💻 JavaScript
-🌐 HTML 
-🎨 CSS 
+React | JavaScript | HTML | CSS 
 
 
 
