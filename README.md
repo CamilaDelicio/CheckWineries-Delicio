@@ -23,12 +23,12 @@ Las bodegas están clasificadas según sus principales propuestas para facilitar
 El sistema brinda una experiencia completa para que los turistas encuentren fácilmente la bodega ideal, fomentando el enoturismo y conectándolos con la bodega ideal. 
 
 ## 🛠️ Tecnologías utilizadas
-🧠 *Backend*
+🧠 *Backend:*
 🌐 Node.js
 🚂 Express.js 
 🗃️ MySQL
 
-🎨 *Frontend*
+🎨 *Frontend:*
 ⚛️ React 
 💻 JavaScript
 🌐 HTML 
